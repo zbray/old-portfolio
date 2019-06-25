@@ -1,0 +1,68 @@
+body {
+  background-color: #282c34;
+  max-height: calc(100vh - 56px);
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+
+.wrapper {
+  background-color: #282c34;
+  min-height: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.topnav {
+  background-color: #343A40;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #626C80;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #343A40;
+  color: white;
+}
+
+.topnav a.active:hover {
+  background-color: 343A40;
+  color: white;
+}
+
+
+#projects {
+  color: white;
+}
+
+.footer {
+  color: white;
+  background-color: gray;
+  text-align: center;
+  padding: 20px;
+
+  position: fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+}
