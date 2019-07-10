@@ -18,8 +18,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 13;
+  color: d1d1d1;
 }
 .wrapper p {
   color: #d1d1d1
@@ -61,7 +61,7 @@ body {
 
 .footer {
   color: white;
-  background-color: gray;
+  background-color: #343A40;
   text-align: center;
   padding: 20px;
   position: fixed;
@@ -70,3 +70,11 @@ body {
   width:100%;
 }
 
+.footer a {
+  margin:10px;
+  font-size: 14;
+}
+
+.footer a:visited {
+  color:white;
+}
