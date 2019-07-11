@@ -1,6 +1,7 @@
 body {
   background-color: #282c34;
-  max-height: calc(100vh - 56px);
+  /* max-height: calc(100vh - 56px); */
+  height:100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -8,21 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
-}
-
-.wrapper {
-  background-color: #282c34;
-  margin-left:50px;
-  margin-right:50px;
-  min-height: 100;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 13;
-  color: d1d1d1;
-}
-.wrapper p {
-  color: #d1d1d1
+  padding-bottom:50px;
 }
 
 .topnav {
@@ -54,9 +41,30 @@ body {
   color: white;
 }
 
+.wrapper {
+  
+  background-color: #282c34;
+  margin-left:50px;
+  margin-right:50px;
+  min-height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 13;
+  color: #d1d1d1;
+}
 
 #projects {
   color: white;
+}
+
+.projectCard {
+  display:inline-block;
+  border: 5px white dashed;
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+  text-align: center;
 }
 
 .footer {
@@ -78,3 +86,5 @@ body {
 .footer a:visited {
   color:white;
 }
+
+
