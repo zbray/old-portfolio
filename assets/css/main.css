@@ -1,17 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Body and Wrapper */
 body {
-  background-color: #282c34;
-  /* max-height: calc(100vh - 56px); */
-  height:100%;
+  height: 100%;
+    /* max-height: calc(100vh - 56px); */
   margin: 0;
+  padding:0;
+  padding-bottom: 50px;
+  background-color: #282c34;
+  color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
-  padding-bottom:50px;
+  margin-bottom:50px;
 }
 
+.wrapper {
+  background-color: #282c34;
+  margin-left: 50px;
+  margin-right: 50px;
+  /* min-height:100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 13;
+  color: #d1d1d1;
+}
+
+/* Navbar */
 .topnav {
   background-color: #343A40;
   overflow: hidden;
@@ -41,50 +61,61 @@ body {
   color: white;
 }
 
-.wrapper {
-  
-  background-color: #282c34;
-  margin-left:50px;
-  margin-right:50px;
-  min-height:100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 13;
-  color: #d1d1d1;
-}
 
-#projects {
-  color: white;
-}
 
+
+/* Projects */
 .projectCard {
-  display:inline-block;
+  display: inline-block;
   border: 5px white dashed;
   margin: 20px;
-  height: 300px;
-  width: 300px;
+  height: auto;
+  width: 370px;
+  vertical-align: middle;
+}
+
+.projectCard img {
+  width: 350px;
+}
+
+#projects div {
+  color: white;
+  max-width:100%;
   text-align: center;
 }
 
-.footer {
+.column {
+  margin: 0, 20px;
+}
+
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+#footer {
   color: white;
   background-color: #343A40;
   text-align: center;
   padding: 20px;
   position: fixed;
-  left:0;
-  bottom:0;
-  width:100%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
-.footer a {
-  margin:10px;
+#footer a {
+  margin: 10px;
   font-size: 14;
 }
 
-.footer a:visited {
-  color:white;
+#footer a:visited {
+  color: white;
 }
-
-
