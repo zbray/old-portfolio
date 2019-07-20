@@ -5,7 +5,7 @@
 /* Body and Wrapper */
 body {
   height: 100%;
-    /* max-height: calc(100vh - 56px); */
+  /* max-height: calc(100vh - 56px); */
   margin: 0;
   padding:0;
   padding-bottom: 50px;
@@ -62,20 +62,19 @@ body {
 }
 
 
-
-
 /* Projects */
 .projectCard {
   display: inline-block;
   border: 5px white dashed;
   margin: 20px;
-  height: auto;
+  /* height: auto; */
   width: 370px;
   vertical-align: middle;
 }
 
 .projectCard img {
   width: 350px;
+  transition: all .5s;
 }
 
 #projects div {
@@ -99,6 +98,10 @@ body {
   clear: both;
 }
 
+img:hover{
+  transform: scale(1.1);
+}
+
 /* Footer */
 #footer {
   color: white;
@@ -119,3 +122,4 @@ body {
 #footer a:visited {
   color: white;
 }
+
