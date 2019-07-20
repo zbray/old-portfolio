@@ -74,7 +74,7 @@ body {
 
 .projectCard img {
   width: 350px;
-  transition: all .5s;
+  transition: all 1s;
 }
 
 #projects div {
