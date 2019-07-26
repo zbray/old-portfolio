@@ -21,8 +21,8 @@ body {
 
 .wrapper {
   background-color: #282c34;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 7%;
+  margin-right: 7%;
   /* min-height:100%; */
   display: flex;
   flex-direction: column;
@@ -31,6 +31,11 @@ body {
   color: #d1d1d1;
 }
 
+
+h1 {
+  font-size: 2.25rem;
+  margin-left: -17px;
+}
 /* Navbar */
 .topnav {
   background-color: #343A40;
@@ -69,7 +74,7 @@ body {
   margin: 20px;
   /* height: auto; */
   width: 370px;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .projectCard img {
