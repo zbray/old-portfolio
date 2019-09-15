@@ -70,9 +70,9 @@ h1 {
 /* Projects */
 .projectCard {
   display: inline-block;
-  border: 5px white dashed;
+  border: 1px red solid;
   margin: 20px;
-  /* height: auto; */
+  height: auto;
   width: 370px;
   vertical-align: top;
 }
@@ -82,7 +82,7 @@ h1 {
   transition: all 1s;
 }
 
-#projects div {
+#projects div, a {
   color: white;
   max-width:100%;
   text-align: center;
@@ -114,7 +114,7 @@ img:hover{
   text-align: center;
   padding: 20px;
   position: fixed;
-  bottom: 0;
+  bottom: 0; 
   left: 0;
   width: 100%;
 }
