@@ -34,7 +34,9 @@ body {
   color: #d1d1d1;
 }
 
-
+#title {
+  text-align:center;
+}
 h1 {
   font-size: 2.25rem;
   margin-left: -17px;
@@ -74,7 +76,7 @@ h1 {
 .projectCard {
   display: inline-block;
   border: 1px red solid;
-  margin: 20px;
+  margin-top: 20px;
   height: auto;
   width: 370px;
   vertical-align: top;
@@ -106,7 +108,10 @@ h1 {
   display: table;
   clear: both;
 }
-
+img {
+  max-width:100%;
+  height:auto;
+}
 img:hover{
   transform: scale(1.1);
   opacity: 1;
@@ -125,7 +130,6 @@ img:hover{
 }
 
 #footer a {
-  margin: 10px;
   color: white;
   font-size: 14;
 }
@@ -133,7 +137,6 @@ img:hover{
 #footer a:visited {
   color: white;
 }
-
 
 
 @media only screen and (max-width: 600px) {
