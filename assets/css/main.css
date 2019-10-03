@@ -75,7 +75,7 @@ h1 {
 /* Projects */
 .projectCard {
   display: inline-block;
-  border: 1px red solid;
+  /* border: 1px red solid; */
   margin-top: 20px;
   height: auto;
   width: 370px;
