@@ -84,6 +84,7 @@ h1 {
 
 .projectCard img {
   width: 350px;
+  height: auto;
   transition: all 1s;
   opacity: .5;
 }
