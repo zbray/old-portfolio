@@ -8,6 +8,7 @@
 html {
   background-color:black;
 }
+
 /* Body and Wrapper */
 body {
   height: 100%;
@@ -70,10 +71,10 @@ h1 {
   color: white;
 }
 
-/* .topnav a.active:hover {
+.topnav a.active:hover {
   background-color: #343A40;
   color: white;
-} */
+}
 
 /* Projects */
 .projectCard {
