@@ -62,7 +62,7 @@ h1 {
 }
 
 .topnav a:hover {
-  background-color: rgb(27, 33, 45);
+  background-color: white;
   color: black;
 }
 
@@ -73,7 +73,7 @@ h1 {
 
 .topnav a.active:hover {
   background-color: #343A40;
-  color: white;
+  color: rgb(128, 4, 4);
 }
 
 /* Projects */
@@ -154,3 +154,4 @@ img:hover{
     opacity:1;
   }
 }
+
