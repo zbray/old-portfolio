@@ -76,6 +76,10 @@ h1 {
   color: rgb(128, 4, 4);
 }
 
+/* Navbar v2 */
+
+
+
 /* Projects */
 .projectCard {
   display: inline-block;
@@ -90,7 +94,7 @@ h1 {
   width: 350px;
   height: auto;
   transition: all 1s;
-  opacity: .5;
+  /* opacity: .5; */
 }
 
 #projects div, a {
