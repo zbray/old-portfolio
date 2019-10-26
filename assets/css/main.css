@@ -1,32 +1,54 @@
+:root{
+  --main-background: rgb(27, 33, 45);
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color:black;
+}
+
+/* Body and Wrapper */
 body {
-  background-color: #282c34;
-  max-height: calc(100vh - 56px);
+  height: 100%;
+  /* max-height: calc(100vh - 56px); */
+    /* background-color: #282c34; */
   margin: 0;
+  padding:0;
+  padding-bottom: 50px;
+  color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
+  margin-bottom:50px;
 }
 
 .wrapper {
-  background-color: #282c34;
-  margin-left:50px;
-  margin-right:50px;
-  min-height: 100;
+  /* background-color: #282c34; */
+  margin-left: 7%;
+  margin-right: 7%;
+  /* min-height:100%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: 13;
-  color: d1d1d1;
-}
-.wrapper p {
-  color: #d1d1d1
+  color: #d1d1d1;
 }
 
+#title {
+  text-align:center;
+}
+
+h1 {
+  font-size: 2.25rem;
+  margin-left: -17px;
+}
+/* Navbar */
 .topnav {
-  background-color: #343A40;
+  background-color: var(--main-background);
   overflow: hidden;
 }
 
@@ -40,7 +62,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #626C80;
+  background-color: white;
   color: black;
 }
 
@@ -51,30 +73,89 @@ body {
 
 .topnav a.active:hover {
   background-color: #343A40;
-  color: white;
+  color: rgb(128, 4, 4);
 }
 
+/* Navbar v2 */
 
-#projects {
-  color: white;
+
+
+/* Projects */
+.projectCard {
+  display: inline-block;
+  /* border: 1px red solid; */
+  margin-top: 20px;
+  height: auto;
+  width: 370px;
+  vertical-align: top;
 }
 
-.footer {
+.projectCard img {
+  width: 350px;
+  height: auto;
+  transition: all 1s;
+  /* opacity: .5; */
+}
+
+#projects div, a {
   color: white;
-  background-color: #343A40;
+  max-width:100%;
+  text-align: center;
+}
+
+.column {
+  margin: 0, 20px;
+}
+
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+img:hover{
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/* Footer */
+#footer {
+  color: white;
+  background-color: var(--main-background);
+  height:72px;
   text-align: center;
   padding: 20px;
   position: fixed;
-  left:0;
-  bottom:0;
-  width:100%;
+  bottom: 0; 
+  left: 0;
+  width: 100%;
 }
 
-.footer a {
-  margin:10px;
+#footer a {
+  /* display:inline-block; */
+  color: white;
   font-size: 14;
+  margin-right:10px;
+  /* padding-top:-4 */
 }
 
-.footer a:visited {
-  color:white;
+#footer a:visited {
+  color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .projectCard img {
+    opacity:1;
+  }
+}
+

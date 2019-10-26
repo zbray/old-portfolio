@@ -9,55 +9,80 @@
   <link rel="shortcut icon" href="favicon.ico" />
   <!-- <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css"> -->
   <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
   <!-- <script src="./js/main.js"></script> -->
 </head>
 
 <body>
+  <!-- navbar with hash links sections -->
+
   <div class="topnav">
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
-    <!-- <a href="#blog">Blog</a> -->
   </div>
+
   <div class="wrapper">
+    <!-- ABOUT ME SECTION -->
     <div id="about">
       <p>
-        <p id="title">
-        </p>
-        <p>
-          Hi! My name is Zach Bray. I'm a Chicago-based web developer. Welcome to my small
-          but growing corner of the web. I've always been interested in all things tech and
-          a few years into my career in operations and client services I felt something was
-          missing. So a few years ago I began to pursue my passion for programming.
-          I started reading books, completing online coding courses and watching videos but it
-          soon became clear that wasn't enough.
-        </p>
-        <p>
-          In an effort to commit myself to my career pivot I enrolled in and recently completed
-          Northwestern University's Full Stack Web Development Bootcamp.
-        </p>
-        <p>
-          I am competent in the following languages and technologies: HTML 5, JavaScript, jQuery,
-          React, CSS, Bootstrap, Node.JS, MySQL, mongoDB, Heroku and Git.
-          Beyond my current skill set I also aim to learn Java to begin software
-          development and C# to being game development.
-        </p>
-        <p>
-          I'm actively seeking employment as a developer. Let's connect!
-        </p>
+        <h1 id="title">Zach Bray</h1>
       </p>
-    </div>
-    <div id="projects">
       <p>
+        Hi! I'm a Chicago-based web developer. Welcome to my small
+        but growing corner of the web. o a few years ago I began to pursue my passion for programming.
+        In an effort to commit myself to my career pivot I enrolled in and
+        recently completed
+        Northwestern University's Full Stack Web Development Bootcamp.
+        <br><br>
+        I'm actively seeking employment as a developer. Let's connect!
       </p>
     </div>
-    <footer class="footer">
-      <a href="https://github.com/zbray"><i class="fab fa-github fa-3x"></i></a>    
-      <a href="https://www.linkedin.com/in/zbray/"><i class="fab fa-linkedin-in fa-3x"></i></a>
-      <a href="mailto:zachdbray@gmail.com"><i class="far fa-envelope fa-3x"></i></a> 
-      
-    </footer>
+
+    <!-- SKILLS SECTION -->
+    <div id="skills">
+      <h2>Stack</h2>
+      <p>
+        I am competent in the following languages and technologies: HTML 5, JavaScript, jQuery,
+        React, CSS, Bootstrap, Node.JS, MySQL, mongoDB, Heroku and Git.
+        Beyond my current skill set I also aim to learn Java to begin software
+        development and C# and Java to begin game development.
+      </p>
+    </div>
+
+    <!-- PROJECT SECTION -->
+    <div id="projects">
+      <h2>Projects</h2>
+      <div class="row">
+        <div class="projectCard">
+          <img src="assets/images/garcon.png">
+          <h3>Garcon</h3>
+          <p><a href="https://github.com/zbray/garcon">Code</a></p>
+          <p>A MERN stack data management platform that for restaurants.</p>
+        </div>
+        <div class="projectCard">
+          <img src="assets/images/megaflix.png">
+          <h3>MegaFlix</h3>
+          <p><a href="https://github.com/zbray/megaFlix">Code</a></p>
+          <p>An independent video store platform frozen in 1995.</p>
+        </div>
+        <div class="projectCard">
+          <img src="assets/images/trainsched.png">
+          <h3>Kings Cross</h3>
+          <p><a href="https://github.com/zbray/trainScheduler">Code</a></p>
+          <p>A split flap train display board powered by Google Firebase.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <div id="footer">
+      <div id="contact">
+        <a href="https://github.com/zbray"><i class="fab fa-github fa-2x"></i></a>   
+        <a href="https://www.linkedin.com/in/zbray/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+        <a href="mailto:zachdbray@gmail.com"><i class="far fa-envelope fa-2x"></i></az>
+      </div>
+    </div>
   </div>
   <noscript>You need to enable JavaScript to run this app.</noscript>
 </body>
