@@ -1,2 +1,3 @@
-# portfolio
-HTML/JS/CSS version of my porftolio
+# Portfolio
+
+My personal portfolio where I provide examples of my work and methods of communication.
